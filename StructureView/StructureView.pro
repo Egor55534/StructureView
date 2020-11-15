@@ -16,6 +16,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         datastruct.cpp \
+        expression.cpp \
         main.cpp
 
 # Default rules for deployment.
@@ -24,4 +25,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-    datastruct.h
+    datastruct.h \
+    expression.h
