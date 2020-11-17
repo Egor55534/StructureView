@@ -1,0 +1,27 @@
+process number :: building number2 . +
+{
+	"structName": "process",
+	"objectName": "building",
+	"properties": {
+		"variable1": {
+			"type": "int",
+			"name": "number",
+			"value": 3,
+			"isStatic":true
+		},
+		"variable2": {
+			"type": "int",
+			"name": "number2",
+			"value": 9,
+			"isStatic":false
+		}
+	},
+	"methods": {
+		"variable1": {
+			"type": "bool",
+			"name": "isCheck()",
+			"arguments": "void",
+			"isStatic":true
+		}
+	}
+}

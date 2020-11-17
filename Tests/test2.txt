@@ -1,0 +1,51 @@
+process count . building getFloat() . +
+{
+	"structName": "process",
+	"objectName": "building",
+	"properties": {
+		"variable1": {
+			"type": "int",
+			"name": "number",
+			"value": 33,
+			"isStatic":true
+		},
+		"variable2": {
+			"type": "int",
+			"name": "number2",
+			"value": 9,
+			"isStatic":false
+		},
+		"variable3": {
+			"type": "int",
+			"name": "count",
+			"value": 13,
+			"isStatic":true
+		},
+		"variable4": {
+			"type": "int",
+			"name": "minimum",
+			"value": 532,
+			"isStatic":false
+		}
+	},
+	"methods": {
+		"variable1": {
+			"type": "bool",
+			"name": "isCheck()",
+			"arguments": "void",
+			"isStatic":true
+		},
+		"variable2": {
+			"type": "float",
+			"name": "getFloat()",
+			"arguments": "void",
+			"isStatic":false
+		},
+		"variable3": {
+			"type": "int",
+			"name": "getNumber()",
+			"arguments": "void",
+			"isStatic":true
+		}
+	}
+}
